@@ -1,0 +1,36 @@
+{
+	"TaskName": "p300",
+	"Manufacturer": "Brain Amp DC (Brain Products GmbH, Germany) and MR plus (Brain Products GmbH, Germany)",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 1000.0,
+	"SoftwareFilters": "n/a",
+	"RecordingDuration": 331.799,
+	"RecordingType": "continuous",
+	"EEGReference": "right earlobe",
+	"EEGGround": "left earlobe",
+	"EEGPlacementScheme": "10-20 system",
+	"EEGChannelCount": 64,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "Brain Amp DC (Brain Products GmbH, Germany) and MR plus (Brain Products GmbH, Germany)",
+	"CapManufacturer": "EASYCAP GmbH",
+	"SoftwareVersions": "n/a",
+	"HardwareFilters": {
+		"HardwareFilter": {
+			"bandpass": "0.1 Hz to 100 Hz"
+		}
+	},
+	"TaskDescription": "[auditory selective attention] within-subject SOA: 180.0ms.",
+	"Instructions": "Subjects were requested to attend to one of three streams and to count the number of target stimuli in the attended stream",
+	"CogAtlasID": "https://www.cognitiveatlas.org/task/id/tsk_GxjZBNiJorj1K/",
+	"InstitutionName": "Shibaura Institute of Technology",
+	"InstitutionAddress": "Koto-ku, Tokyo, Japan",
+	"InstitutionalDepartmentName": "Graduate School of Engineering and Science; College of Engineering",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "A 3-class auditory BCI using three tone sequences based on auditory stream segregation. Musical tones were presented to subjects' right ear, and subjects attended to one of three streams while counting target stimuli. P300 activity was elicited by target stimuli in the attended stream.",
+	"MISCChannelCount": 0
+}

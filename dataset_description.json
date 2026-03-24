@@ -1,0 +1,45 @@
+{
+	"Name": "Class for Kojima2024A dataset management. P300 dataset",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC0-1.0",
+	"Authors": [
+		"Simon Kojima",
+		"Shin'ichiro Kanoh"
+	],
+	"Funding": [
+		"JSPS KAKENHI Grant Number JP23K11811"
+	],
+	"EthicsApprovals": [
+		"Review Board on Bioengineering Research Ethics of Shibaura Institute of Technology",
+		"Declaration of Helsinki"
+	],
+	"ReferencesAndLinks": [
+		"https://doi.org/10.7910/DVN/MQOVEY",
+		"10.1371/journal.pone.0303565"
+	],
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.5.0"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.7910/DVN/MQOVEY",
+			"URL": "https://doi.org/10.7910/DVN/MQOVEY"
+		}
+	],
+	"Keywords": [
+		"auditory BCI",
+		"P300",
+		"auditory stream segregation",
+		"selective attention",
+		"oddball paradigm",
+		"Riemannian geometry"
+	],
+	"PublicationYear": 2024
+}
