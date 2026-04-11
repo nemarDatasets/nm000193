@@ -41,5 +41,7 @@
     "oddball paradigm",
     "Riemannian geometry"
   ],
-  "PublicationYear": 2024
+  "PublicationYear": 2024,
+  "Notes": "Dataset Name refreshed in 2026-04 to use the canonical paper title from CrossRef (no changes to underlying data).",
+  "Version": "1.0.1"
 }
