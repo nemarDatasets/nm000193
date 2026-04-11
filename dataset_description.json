@@ -1,5 +1,5 @@
 {
-	"Name": "Class for Kojima2024A dataset management. P300 dataset",
+	"Name": "Kojima et al. 2024 (Dataset A) — Auditory BCI P300 oddball paradigm",
 	"BIDSVersion": "1.9.0",
 	"HEDVersion": "8.4.0",
 	"DatasetType": "derivative",
