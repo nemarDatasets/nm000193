@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000193-blue)](https://doi.org/10.82901/nemar.nm000193)
+
 # Class for Kojima2024A dataset management. P300 dataset
 
 Class for Kojima2024A dataset management. P300 dataset.
