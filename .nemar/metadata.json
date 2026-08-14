@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kojima et al. 2024 (Dataset A) — An auditory brain-computer interface based on selective attention to multiple tone streams",
-  "description": "An auditory brain-computer interface dataset based on selective attention to multiple tone streams using P300 event-related potentials. Eleven healthy subjects performed a 3-class auditory task involving selective attention to one of three segregated musical tone streams while EEG and EOG signals were recorded at 1000 Hz from 64 channels. Classification was performed using Riemannian geometry methods, achieving over 80% accuracy in five subjects and over 75% in nine subjects.",
-  "methods_description": "EEG and EOG signals (64 EEG channels + 2 EOG channels) were recorded at 1000 Hz using Brain Amp DC and MR plus amplifiers with a standard 10-20 montage. Musical tones (150 ms duration, 180 ms stimulus onset asynchrony) were presented to the right ear via headphones using a digital signal processor. Three auditory streams were created using stream segregation with standard (90%) and deviant (10%) tones. Subjects performed two task blocks with three 5-minute runs each, counting target stimuli in attended streams. Data were bandpass filtered (0.1-100 Hz online; 1-40 Hz for classification), baseline corrected, artifact rejected, and classified using xDAWN spatial filtering with Riemannian geometry covariance matrices.",
+  "description": "An auditory brain-computer interface dataset based on selective attention to multiple tone streams using P300 event-related potentials. The study employed auditory stream segregation with three tone sequences presented to participants' right ear, recording 64-channel EEG and 2-channel EOG from 11 healthy subjects. Classification using Riemannian geometry achieved over 80% accuracy in 5 subjects and over 75% in 9 subjects, demonstrating the feasibility of multi-class auditory BCIs without visual feedback.",
+  "methods_description": "EEG and EOG signals were recorded at 1000 Hz from 11 healthy subjects (mean age 22.5 years) using a 64-channel Brain Amp DC amplifier with standard 10-20 montage and Ag-AgCl electrodes. Musical tones (150 ms duration, 180 ms stimulus onset asynchrony) were presented via headphones to the right ear using a digital signal processor. Subjects attended to one of three tone streams and counted target stimuli (10% probability). Data were bandpass filtered (0.1-100 Hz online; 1-40 Hz for classification), baseline corrected, artifact rejected (±100μV EEG, ±500μV EOG), and classified using xDAWN spatial filtering with Riemannian geometry covariance matrices in 10-fold cross-validation.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -29,16 +29,18 @@
       "term": "selective attention"
     },
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Riemannian geometry"
     },
     {
       "term": "Event-Related Potentials, P300",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "Riemannian geometry"
     }
   ],
   "related_identifiers": [
@@ -58,7 +60,7 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000193",
+      "identifier": "https://nemar.org/dataset/nm000193",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
@@ -66,7 +68,8 @@
   "funding_references": [
     {
       "funder_name": "JSPS",
-      "award_number": "JP23K11811"
+      "award_number": "JP23K11811",
+      "award_title": "KAKENHI Grant"
     }
   ],
   "resource_type_general": "Dataset",
@@ -75,15 +78,18 @@
     "eeg"
   ],
   "sizes": [
-    "4.0 GB (67 files)"
+    "6.8 GB (199 files)"
   ],
   "formats": [
     ".bdf",
+    ".eeg",
     ".json",
     ".md",
     ".tsv",
+    ".vhdr",
+    ".vmrk",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "5b52e773376e5e07451561dce64888b769142a34a854d9d99758caef242d561a"
+  "source_hash": "5e3d20535455bd4bd0aada7943183123ed5069518bef28644b78c1950bd057ca"
 }
