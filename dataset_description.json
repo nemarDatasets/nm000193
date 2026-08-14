@@ -43,6 +43,6 @@
   ],
   "PublicationYear": 2024,
   "Notes": "Dataset Name refreshed in 2026-04 to use the canonical paper title from CrossRef (no changes to underlying data).",
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "DatasetDOI": "10.82901/nemar.nm000193"
 }
