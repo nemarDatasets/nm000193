@@ -1,7 +1,7 @@
 ﻿filename	acq_time
-eeg/sub-8_ses-0_task-p300_run-1_recording-low_eeg.bdf	1915-01-01T10:54:37.168650Z
-eeg/sub-8_ses-0_task-p300_run-2_recording-mid_eeg.bdf	1915-01-01T11:02:11.527614Z
-eeg/sub-8_ses-0_task-p300_run-3_recording-high_eeg.bdf	1915-01-01T11:08:48.126709Z
-eeg/sub-8_ses-0_task-p300_run-4_recording-low_eeg.bdf	1915-01-01T11:14:54.085874Z
-eeg/sub-8_ses-0_task-p300_run-5_recording-mid_eeg.bdf	1915-01-01T11:21:23.364986Z
-eeg/sub-8_ses-0_task-p300_run-6_recording-high_eeg.bdf	1915-01-01T11:28:03.044075Z
+eeg/sub-8_ses-0_task-p300_acq-low_run-1_eeg.bdf	1915-01-01T10:54:37.168650Z
+eeg/sub-8_ses-0_task-p300_acq-mid_run-2_eeg.bdf	1915-01-01T11:02:11.527614Z
+eeg/sub-8_ses-0_task-p300_acq-high_run-3_eeg.bdf	1915-01-01T11:08:48.126709Z
+eeg/sub-8_ses-0_task-p300_acq-low_run-4_eeg.bdf	1915-01-01T11:14:54.085874Z
+eeg/sub-8_ses-0_task-p300_acq-mid_run-5_eeg.bdf	1915-01-01T11:21:23.364986Z
+eeg/sub-8_ses-0_task-p300_acq-high_run-6_eeg.bdf	1915-01-01T11:28:03.044075Z
