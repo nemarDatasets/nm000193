@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kojima et al. 2024 (Dataset A) — An auditory brain-computer interface based on selective attention to multiple tone streams",
-  "description": "An auditory brain-computer interface dataset based on selective attention to multiple tone streams using P300 event-related potentials. Eleven healthy subjects performed a 3-class auditory task involving selective attention to one of three segregated musical tone streams while EEG and EOG signals were recorded at 1000 Hz from 64 channels. Classification was performed using Riemannian geometry methods, achieving over 80% accuracy in five subjects and over 75% in nine subjects.",
-  "methods_description": "EEG and EOG signals (64 EEG channels + 2 EOG channels) were recorded at 1000 Hz using Brain Amp DC and MR plus amplifiers with a standard 10-20 montage. Musical tones (150 ms duration, 180 ms stimulus onset asynchrony) were presented to the right ear via headphones using a digital signal processor. Subjects attended to one of three tone streams and counted target stimuli. Data were bandpass filtered (0.1-100 Hz online; 0.1-40 Hz for ERP analysis, 1-40 Hz for classification), baseline corrected, artifact rejected (±100μV EEG, ±500μV EOG), and classified using xDAWN spatial filtering with Riemannian geometry covariance matrices in 10-fold cross-validation.",
+  "description": "This dataset comprises 64-channel EEG recordings from 11 healthy subjects performing an auditory P300-based brain-computer interface task using selective attention to multiple tone streams. Subjects attended to one of three auditory streams of musical tones and counted target stimuli while P300 activity was recorded. Classification using Riemannian geometry achieved >80% accuracy for 5 subjects and >75% for 9 subjects, demonstrating the feasibility of multi-class auditory BCIs based on auditory stream segregation.",
+  "methods_description": "EEG and EOG signals were recorded at 1000 Hz from 11 subjects using 64 EEG channels and 2 EOG channels (Brain Amp DC and MR plus amplifiers, EASYCAP electrodes, right earlobe reference). Musical tones (150 ms duration, 180 ms stimulus onset asynchrony) were presented to the right ear via headphones. Each experiment consisted of two task blocks with three 5-minute runs. Subjects counted target stimuli (10% probability) in attended streams while ignoring non-target stimuli (90% probability). Data were bandpass filtered (0.1-40 Hz for ERP, 1-40 Hz for classification), baseline corrected, artifact rejected, and classified using xDAWN spatial filtering with Riemannian geometry covariance matrices.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -29,13 +29,13 @@
       "term": "selective attention"
     },
     {
-      "term": "EEG"
-    },
-    {
       "term": "oddball paradigm"
     },
     {
       "term": "Riemannian geometry"
+    },
+    {
+      "term": "EEG"
     }
   ],
   "related_identifiers": [
@@ -86,5 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "57e8c10c2e59a317fb3e54fce397615650ca4c8ebe069d12052b32228ceb90b6"
+  "source_hash": "d1b8fd1dacedfc6a7258834b13f6b9ed723d7e9fdf926b1eb43fa2d778280daa"
 }
