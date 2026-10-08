@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kojima et al. 2024 (Dataset A) — An auditory brain-computer interface based on selective attention to multiple tone streams",
-  "description": "EEG dataset from 11 healthy participants performing a 3-class auditory brain-computer interface task based on selective attention to three concurrently presented tone streams, exploiting auditory stream segregation. Musical tones were delivered to the right ear, and participants counted targets in the attended stream, eliciting P300 responses. 64-channel EEG and 2-channel EOG were recorded at 1000 Hz, and Riemannian-geometry classification achieved over 80% accuracy for five subjects.",
-  "methods_description": "Piano tones from a software synthesizer were presented to the right ear through a digital signal processor and headphones. Three streams each contained standard (90%) and deviant (10%) tones, with 150 ms tone duration and 180 ms stimulus onset asynchrony. Each session had two task blocks of three 5-minute runs. 64-channel EEG and 2-channel EOG were recorded at 1000 Hz. Classification used xDAWN spatial filtering and Riemannian geometry with 10-fold cross validation.",
+  "description": "EEG dataset from 11 healthy participants performing a three-class auditory brain-computer interface task based on selective attention to multiple tone streams. Musical piano tones were presented to the right ear as three segregated streams, and participants counted targets in the attended stream, eliciting P300 responses. 64-channel EEG and 2-channel EOG were recorded at 1000 Hz, and attended streams were classified with Riemannian geometry, reaching accuracy above 80% for five subjects.",
+  "methods_description": "64-channel EEG and 2-channel EOG were recorded at 1000 Hz with BrainAmp amplifiers, referenced to the right earlobe. Piano tones (150 ms, SOA 180 ms) formed three streams with 90% standard and 10% deviant tones, presented to the right ear. Each session had two task blocks of three 5-minute runs. Classification used xDAWN spatial filtering and Riemannian geometry with 10-fold cross validation.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -17,7 +17,9 @@
       "term": "EEG"
     },
     {
-      "term": "auditory brain-computer interface"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "P300"
@@ -27,9 +29,6 @@
     },
     {
       "term": "selective attention"
-    },
-    {
-      "term": "oddball paradigm"
     },
     {
       "term": "Riemannian geometry"
@@ -82,5 +81,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "d1b8fd1dacedfc6a7258834b13f6b9ed723d7e9fdf926b1eb43fa2d778280daa"
+  "source_hash": "a3e56e3aa78939b76630924812f920bbb88b1e19b69a89906c40db3117fcb171"
 }
