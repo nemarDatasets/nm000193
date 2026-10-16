@@ -1,0 +1,5 @@
+1.0.6 2026-10-16
+  - sourcedata: added kojima2024_manifest.json (130,647 bytes), the Harvard Dataverse export
+    (dataverse_json) of 10.7910/DVN/MQOVEY that moabb.datasets.Kojima2024A downloads before any data file and uses
+    to find each subject's files; listed without a subject. No existing file changed; the BIDS
+    tree is unchanged.
