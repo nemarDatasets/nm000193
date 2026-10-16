@@ -8,8 +8,8 @@
  "license": "CC0-1.0",
  "doi": "10.7910/DVN/MQOVEY",
  "naming": "upstream_filenames_restored",
- "n_files": 198,
- "total_bytes": 2759503023,
+ "n_files": 199,
+ "total_bytes": 2759633670,
  "files": [
   {
    "file": "sub-A/eeg/sub-A_task-high_run-3_eeg.eeg",
@@ -1198,8 +1198,25 @@
    "bytes": 53985,
    "sha256": "909284c9b01de1cffe6395653e7d7c8416a1354e513bae96170ced2585287391",
    "subject": "11"
+  },
+  {
+   "file": "kojima2024_manifest.json",
+   "bytes": 130647,
+   "sha256": "31430beb9cce7696c5c5e35f8d3e10292e139a2362d5c7e5c7b62ddc5311a25d",
+   "subject": null,
+   "url": "https://dataverse.harvard.edu/api/datasets/export?exporter=dataverse_json&persistentId=doi%3A10.7910/DVN/MQOVEY",
+   "how": "loader index: the Dataverse dataverse_json export that Kojima2024A.download_by_subject() stores as MNE-Kojima2024A-data/kojima2024_manifest.json before any data file; bytes as returned by the export API on 2026-10-16"
   }
  ],
  "n_subjects_recorded": 11,
- "n_shared_files": 0
+ "n_shared_files": 0,
+ "revisions": [
+  {
+   "date": "2026-10-16",
+   "version": "1.0.6",
+   "added_files": 1,
+   "added_bytes": 130647,
+   "note": "Added kojima2024_manifest.json: the response of https://dataverse.harvard.edu/api/datasets/export?exporter=dataverse_json&persistentId=doi%3A10.7910/DVN/MQOVEY, saved by the loader's own call (moabb.datasets.download.download_if_missing), i.e. exactly the file Kojima2024A.download_by_subject() stores as MNE-Kojima2024A-data/kojima2024_manifest.json (this deposit's upstream_cache_root) before any data file. Retrieved 2026-10-16. Checked: for each of the 11 subjects the loader selects 18 files from it, all 198 of them are in this deposit under the same relative path, with the subject the loader uses and the file size the manifest gives. Subject-less entry: shared by every subject's load."
+  }
+ ]
 }
